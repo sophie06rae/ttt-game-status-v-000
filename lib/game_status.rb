@@ -36,7 +36,7 @@ end
 
 def full?(board)
   space = " "
-  if board.include(space)
+  if board.include?(space)
     return false
   else
     return true
