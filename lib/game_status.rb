@@ -60,7 +60,7 @@ end
 end
 
 def winner(board)
-if WIN_COMBINATIONS == "X"
+if won?(board) == "X"
   puts "X"
 end
 end
