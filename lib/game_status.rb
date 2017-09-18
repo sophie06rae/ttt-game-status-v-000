@@ -60,8 +60,7 @@ end
 end
 
 def winner(board)
-if full?(board) == false
-  return nil
-end
-end
-end
+    if winning_combo = won?(board)
+      board[winning_combo.first]
+    end
+  end
