@@ -58,3 +58,6 @@ else
   return false
 end
 end
+
+def winner
+end 
