@@ -61,9 +61,9 @@ end
 
 def winner(board)
   won?(board)
-  if win_combination == "X"
+  if won(board)== "X"
     puts "X"
   else
     puts "O"
-  end 
+  end
 end
