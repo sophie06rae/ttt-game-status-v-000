@@ -63,5 +63,10 @@ def winner(board)
 if won?(board)
   return "X"
   puts "X"
+elsif won?(board)
+  return "O"
+puts "O"
+else
+  return nil  
 end
 end
