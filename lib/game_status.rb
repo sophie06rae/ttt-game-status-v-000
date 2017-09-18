@@ -60,5 +60,5 @@ end
 end
 
 def winner(board)
-  board == WIN_COMBINATIONS
+  board.any? (WIN_COMBINATIONS)
 end
