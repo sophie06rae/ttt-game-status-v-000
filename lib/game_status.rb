@@ -16,5 +16,4 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  board.include? WIN_COMBINATIONS[1]
 end
