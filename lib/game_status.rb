@@ -59,5 +59,11 @@ else
 end
 end
 
-def winner
-end 
+def winner(board)
+  won?(board)
+  if win_combination == "X"
+    puts "X"
+  else
+    puts "O"
+  end 
+end
