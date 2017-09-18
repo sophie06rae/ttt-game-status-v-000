@@ -60,9 +60,8 @@ end
 end
 
 def winner(board)
-if won?(board)
-  return "X"
-  puts "X"
-else puts "O" 
+if full?(board) == false
+  return nil
+end
 end
 end
