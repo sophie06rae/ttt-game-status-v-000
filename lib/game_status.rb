@@ -60,7 +60,8 @@ end
 end
 
 def winner(board)
-if won?(board) return "X"
+if won?(board)
+  return "X"
   puts "X"
 end
 end
