@@ -60,10 +60,4 @@ end
 end
 
 def winner(board)
-  won?(board)
-  if won?(board) == "X"
-    puts "X"
-  else
-    puts "O"
-  end
 end
