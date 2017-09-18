@@ -35,5 +35,9 @@ def won?(board)
 end
 
 def full?(board)
-  board.all? {|i| i == "X" || "O"}
+  if board.include(" ")
+    return false
+  else
+    return true
+  end
 end
