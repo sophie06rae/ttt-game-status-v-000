@@ -60,4 +60,5 @@ end
 end
 
 def winner(board)
+  won?(board).include?("X")
 end
