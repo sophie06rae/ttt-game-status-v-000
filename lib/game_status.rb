@@ -19,14 +19,8 @@ def won?(board)
 
 WIN_COMBINATIONS.each do |win_combination|
 
-  win_index_1 = win_combination[0]
-
-
-
-  if win_index_1
-    return win_combination # return the win_combination indexes that won.
-  else
-    return false
-    end
+if win_combination == WIN_COMBINATIONS[0]
+  return win_combination
+end
   end
 end
