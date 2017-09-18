@@ -35,5 +35,5 @@ def won?(board)
 end
 
 def full?(board)
-  board.any? { |spaces| spaces != "X" || "O"}
+  board.include? (" ")
 end
