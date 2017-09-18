@@ -60,5 +60,5 @@ end
 end
 
 def winner(board)
-  board.include?("X")
+  board.include?(WIN_COMBINATIONS)
 end
