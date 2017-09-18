@@ -63,3 +63,4 @@ def winner(board)
 if WIN_COMBINATIONS == "X"
   puts "X"
 end
+end
