@@ -34,4 +34,3 @@ WIN_COMBINATIONS.each do |win_combination|
   return win_combination
   end
 end
-
