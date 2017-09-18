@@ -19,7 +19,7 @@ def won?(board)
 
 WIN_COMBINATIONS.each do |win_combination|
 
-if win_combination == WIN_COMBINATIONS[0]
+if win_combination == WIN_COMBINATIONS[0] || WIN_COMBINATIONS[1]
   return win_combination
 end
   end
