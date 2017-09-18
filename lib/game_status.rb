@@ -35,6 +35,5 @@ def won?(board)
 end
 
 def full?(board)
-  board.all? { |spaces| spaces == "X" || "O"}
-  
+  board.any? { |spaces| spaces == " "}
 end
