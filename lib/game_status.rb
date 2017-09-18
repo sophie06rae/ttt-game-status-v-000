@@ -33,4 +33,3 @@ for each win_combination in WIN_COMBINATIONS
     false
   end
 end
-end
